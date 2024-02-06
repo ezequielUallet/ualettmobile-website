@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.sec_3 {
+    
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.sec_3_tit {
+    
+    width: 100%;
+    margin-bottom: 60px;
+}
+.sec_3_tit h3 {
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+.sec_3_tit h4 {
+    
+    margin-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sec_3_ctn {
+    
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec_3_ctc {
+    width: 40%;
+    box-sizing: border-box;
+}
+.sec_3_ctc h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.sec_3_ctc div {
+    
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.sec_3_ctc div h5 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+.sec_3_ctc div h5 span {
+    margin-right: 10px;
+}
+.sec_3_ctc div h6 {
+    font-weight: 300;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+/* ------------- SECTION 3 FORM ------------ */
+.sec_3_form {
+    width: 55%;
+    margin: 20px auto;
+    z-index: 20;
+    position: relative;
+}
+.sec_3_form form {
+    position: relative;
+    z-index: 70;
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.35), rgba(204, 204, 204, 0.35)),
+linear-gradient(0deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+    border: 1px solid #FFFFFF1F;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 40px 40px;
+   
+}
+.sec_3_form form .sec_3_form_inputs {
+    
+    width: 100%;
+    z-index: 80;
+}
+.sec_3_form form .sec_3_form_inputs:nth-child(1),
+.sec_3_form form .sec_3_form_inputs:nth-child(2),
+.sec_3_form form .sec_3_form_inputs:nth-child(3),
+.sec_3_form form .sec_3_form_inputs:nth-child(4) {
+    width: 48%;
+}
+.sec_3_form form .sec_3_form_inputs input, .sec_3_form form .sec_3_form_inputs textarea {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.sec_3_form form .sec_3_form_inputs button {
+    border: 0;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 0;
+    background: linear-gradient(91.64deg, #D73CBE 0%, #FE42DF 9.86%, #B635A2 59.18%);
+}
+
+/* ------------- SECTION 3 BKG IMG ------------ */
+.sec_3_form_bkg {
+    
+    width: 110%;
+    z-index: 30;
+    position: absolute;
+    top: -5%;
+    left: -15%;
+}
+.sec_3_form_bkg img {
+    width: inherit;
+    height: inherit;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .sec_3 {
+        width: 90%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .sec_3_tit {
+        margin-bottom: 50px;
+    }
+    .sec_3_tit h3 {
+        font-size: 56px;
+    }
+    .sec_3_tit h4 {
+        font-size: 38px;
+    }
+
+    .sec_3_ctc {
+        
+        width: 40%;
+    }
+    .sec_3_ctc h4 {
+        font-size: 38px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .sec_3_ctc div h5 {
+        font-size: 28px;
+    }
+    .sec_3_ctc div h6 {
+        font-size: 22px;
+    }
+
+    /* ------------- SECTION 3 FORM ------------ */
+    .sec_3_form {
+        
+        width: 58%;
+        margin: 0px auto
+    }
+    .sec_3_form form {
+        width: 100%;
+        padding: 35px 35px;
+    }
+    .sec_3_form form .sec_3_form_inputs input, .sec_3_form form .sec_3_form_inputs textarea {
+        font-size: 20px;
+        padding: 8px 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ------------- SECTION 3 BKG IMG ------------ */
+    .sec_3_form_bkg {
+        top: 0%;
+        left: -15%;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    .sec_3 {
+        width: 95%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .sec_3_tit {
+        margin-bottom: 40px;
+    }
+    .sec_3_tit h3 {
+        font-size: 36px;
+    }
+    .sec_3_tit h4 {
+        font-size: 24px;
+    }
+
+    .sec_3_ctn {
+        margin-top: 20px;
+    }
+    .sec_3_ctc {
+        width: 38%;
+    }
+    .sec_3_ctc h4 {
+        font-size: 26px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .sec_3_ctc div h5 {
+        font-size: 22px;
+    }
+    .sec_3_ctc div h6 {
+        font-size: 20px;
+    }
+
+    /* ------------- SECTION 3 FORM ------------ */
+    .sec_3_form {
+        width: 65%;
+    }
+    .sec_3_form form {
+        padding: 20px 20px;
+    }
+    .sec_3_form form .sec_3_form_inputs input,
+    .sec_3_form form .sec_3_form_inputs textarea {
+        font-size: 18px;
+        padding: 4px 10px;
+        margin-bottom: 10px;
+    }
+    .sec_3_form form .sec_3_form_inputs button {
+        width: 50%;
+        margin-top: 8px;
+        font-size: 18px;
+        padding: 8px 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .sec_3 {
+        width: 92%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .sec_3_tit {
+        margin-bottom: 20px;
+    }
+    .sec_3_tit h3 {
+        font-size: 28px;
+    }
+    .sec_3_tit h4 {
+        font-size: 22px;
+    }
+
+    .sec_3_ctn {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .sec_3_ctc {
+        width: 100%;
+    }
+    .sec_3_ctc h4 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .sec_3_ctc div {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .sec_3_ctc div h5 {
+        font-size: 22px;
+    }
+    .sec_3_ctc div h5 span {
+        margin-right: 10px;
+    }
+    .sec_3_ctc div h6 {
+        font-size: 20px;
+    }
+    
+    /* ------------- SECTION 3 FORM ------------ */
+    .sec_3_form {
+        width: 100%;
+        order: -1;
+    }
+    .sec_3_form form {
+        padding: 20px 20px;
+    }
+    .sec_3_form form .sec_3_form_inputs:nth-child(1),
+    .sec_3_form form .sec_3_form_inputs:nth-child(2),
+    .sec_3_form form .sec_3_form_inputs:nth-child(3),
+    .sec_3_form form .sec_3_form_inputs:nth-child(4) {
+        width: 99%;
+        margin: 0 auto;
+    }
+    .sec_3_form form .sec_3_form_inputs input,
+    .sec_3_form form .sec_3_form_inputs textarea {
+        font-size: 18px;
+        padding: 4px 10px;
+        margin-bottom: 8px;
+    }
+    .sec_3_form form .sec_3_form_inputs button {
+        width: 60%;
+        margin-top: 8px;
+        font-size: 16px;
+        padding: 8px 0;
+    }
+}

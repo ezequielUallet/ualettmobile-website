@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.sec_2 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.sec_2_msg {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: right;
+}
+.sec_2_msg .sec_2_msg_ctn {
+    width: 50%;
+}
+.sec_2_msg .sec_2_msg_ctn h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+}
+.sec_2_msg .sec_2_msg_ctn p {
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #ffffff;
+}
+.sec_2_bxs {
+    width: 100%;
+    position: relative;
+    z-index: 30;
+    border: 1px solid transparent;
+}
+
+.sec_2_bx_ctn {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 350px;
+}
+
+.sec_2_bxs .sec_2_bx {
+    background: linear-gradient(138.09deg, rgba(255, 255, 255, 0.22) 11.73%, rgba(255, 255, 255, 0.11) 89.42%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+    border: 5px solid #FFFFFF1F;
+    width: 25%;
+    padding: 0px 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    z-index: 70;
+}
+.sec_2_bxs .sec_2_bx h6 {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+.sec_2_bxs .sec_2_bx p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.sec_2_adv {
+    width: 100%;
+    margin-top: 40px;
+}
+.sec_2_adv p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+.sec_2_adv p img {
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+/* ------------- SECTION 2 BKG IMG ------------ */
+.sec_2_bkg {
+    width: 1150px;
+    height: 900px;
+    z-index: 40;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sec_2_bkg img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+}
+.sec_2_bkg img:first-child {
+    z-index: 50;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+}
+.sec_2_bkg img:last-child {
+    z-index: 60;
+    width: 120%;
+    height: 100%;
+    top: -25%;
+    left: -10%;
+}
+
+/* ------------- SECTION 2 CAROUSEL ------------ */
+.sec_2_crsl {
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 250px;
+}
+.carousel-inner {
+    width: 100%;
+}
+.sec_2_crsl_ctn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.sec_2_crsl_bx {
+    background: linear-gradient(138.09deg, rgba(255, 255, 255, 0.22) 11.73%, rgba(255, 255, 255, 0.11) 89.42%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12));
+    border: 5px solid #FFFFFF1F;
+    width: 40%;
+    padding: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    z-index: 70;
+}
+.sec_2_crsl_bx h6 {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .sec_2 {
+        width: 85%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .sec_2_msg {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sec_2_msg .sec_2_msg_ctn {
+        width: 65%;
+    }
+    .sec_2_msg .sec_2_msg_ctn h4 {
+        font-size: 56px;
+    }
+    .sec_2_msg .sec_2_msg_ctn p {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    /* ------------- SECTION 2 BKG IMG ------------ */
+    .sec_2_bkg {
+        width: 860px;
+        height: 700px;
+    }
+    .sec_2_bx_ctn {
+        margin-top: 250px;
+    }
+
+    .sec_2_bxs .sec_2_bx {
+        width: 30%;
+        padding: 0px 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .sec_2_bxs .sec_2_bx h6 {
+        font-size: 24px;
+    }
+    .sec_2_bxs .sec_2_bx p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .sec_2_adv {
+        margin-top: 30px;
+    }
+    .sec_2_adv p {
+        font-size: 26px;
+    }
+    .sec_2_adv p img {
+        width: 90px;
+        height: 30px;
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    .sec_2 {
+        width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sec_2_msg {
+        margin-bottom: 30px;
+    }
+    .sec_2_msg .sec_2_msg_ctn {
+        width: 75%;
+    }
+    .sec_2_msg .sec_2_msg_ctn h4 {
+        font-size: 28px;
+    }
+    .sec_2_msg .sec_2_msg_ctn p {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    /* ------------- SECTION 2 BKG IMG ------------ */
+    .sec_2_bkg {
+        width: 690px;
+        height: 500px;
+    }
+    .sec_2_bx_ctn {
+        display: none;
+    }
+
+    .sec_2_adv {
+        margin-top: 20px;
+    }
+    .sec_2_adv p {
+        font-size: 22px;
+    }
+    .sec_2_adv p img {
+        width: 80px;
+        height: 25px;
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+
+    /* ------------- SECTION 2 CAROUSEL ------------ */
+    .sec_2_crsl {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .sec_2 {
+        width: 92%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sec_2_msg {
+        margin-bottom: 20px;
+    }
+    .sec_2_msg .sec_2_msg_ctn {
+        width: 75%;
+    }
+    .sec_2_msg .sec_2_msg_ctn h4 {
+        font-size: 22px;
+    }
+    .sec_2_msg .sec_2_msg_ctn p {
+        font-size: 16px;
+    }
+
+    /* ------------- SECTION 2 BKG IMG ------------ */
+    .sec_2_bkg {
+        width: 450px;
+        height: 400px;
+        left: -10%
+    }
+
+    /* ------------- SECTION 2 CAROUSEL ------------ */
+    .sec_2_crsl {
+        margin-top: 160px;
+    }
+    .sec_2_crsl_ctn {
+        margin: 20px 0;
+    }
+    .sec_2_crsl_bx {
+        width: 45%;
+        padding: 0px 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sec_2_crsl_bx h6 {
+        font-size: 16px;
+    }
+}
